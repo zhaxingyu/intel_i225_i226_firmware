@@ -1,7 +1,9 @@
 # intel_i225_i226_firmware
 英特尔i225V与i226V网卡固件及升级指南
-Version i225 - V1.94
+
+Version i225 - V1.94 
 Version i226 - V2.32
+
 
 # i225-V
 1. 安装驱动
@@ -13,6 +15,7 @@ cd 到当前目录
 .\EEUPDATEW64e.exe /nic=1 /eepromver
 ```
 3. 更新固件
+注意：如果你有多个网卡设备，请先将其他网卡设备在设备管理器中禁用
 ## 版本 1.94
 ```cmd
 .\EEUPDATEW64e.exe /nic=1 /d NVM\Foxpond1_I225_15F3_V_1MB_1p94.bin
@@ -33,6 +36,7 @@ cd 到当前目录
 .\EEUPDATEW64e.exe /nic=1 /eepromver
 ```
 3. 更新固件
+注意：如果你有多个网卡设备，请先将其他网卡设备在设备管理器中禁用
 ## 版本 2.32 2MB
 ```cmd
 .\EEUPDATEW64e.exe /nic=1 /d NVM\FXVL_125C_V_2MB_2.32.bin
