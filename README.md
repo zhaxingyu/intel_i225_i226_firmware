@@ -1,7 +1,8 @@
 # intel_i225_i226_firmware
 英特尔i225V与i226V网卡固件及升级指南
 
-Version i225 - V1.94 
+Version i225 - V1.94
+
 Version i226 - V2.32
 
 
